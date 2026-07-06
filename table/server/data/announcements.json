@@ -1,0 +1,21 @@
+[
+  {
+    "id": "a6b5e550-f399-4960-8c37-8642f63760e4",
+    "institutionId": "a0aa7b13-6430-4f55-a4a9-e231a85fcd87",
+    "title": "testing",
+    "message": "u have holiday",
+    "attachment": {
+      "originalName": "Batches List.xlsx",
+      "fileName": "1782835558942-8a4f6333-Batches-List.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 12500,
+      "url": "http://localhost:4000/uploads/announcements/1782835558942-8a4f6333-Batches-List.xlsx"
+    },
+    "createdAt": "2026-06-30T16:05:58.948Z",
+    "createdBy": {
+      "id": "012935af-0933-4753-8ac8-99159aa04b2f",
+      "name": "Main Administration",
+      "role": "COLLEGE_ADMIN"
+    }
+  }
+]

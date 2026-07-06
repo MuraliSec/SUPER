@@ -1,0 +1,336 @@
+Error in GET /faculty/history: PrismaClientValidationError: 
+Invalid `prisma.attendance.findMany()` invocation in
+C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:49
+
+  651 router.get('/faculty/history', auth, async (req, res) => {
+  652     try {
+  653         const institutionId = getInstitutionId(req);
+→ 654         const records = await prisma.attendance.findMany({
+                where: {
+                  facultyId: "69de76b59c127eab5fdcbfa7",
+                  institutionId: "726ad639-1dc8-4394-8980-70e110cb7e49"
+                },
+                include: {
+                  course: {
+                    select: {
+                      id: true,
+                      subject: true,
+                      courseCode: true
+                    }
+                  },
+                  student: {
+                    select: {
+                      id: true,
+                      name: true,
+                      username: true
+                    }
+                  }
+                },
+                orderBy: {
+                  date: -1
+                        ~~
+                }
+              })
+
+Argument `date`: Invalid value provided. Expected SortOrder, provided Int.
+    at wn (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:29:1363)
+    at $n.handleRequestError (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6958)
+    at $n.handleAndLogRequestError (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at async l (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at async C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:25 {
+  clientVersion: '5.22.0'
+}
+Error in GET /faculty/history: PrismaClientValidationError: 
+Invalid `prisma.attendance.findMany()` invocation in
+C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:49
+
+  651 router.get('/faculty/history', auth, async (req, res) => {
+  652     try {
+  653         const institutionId = getInstitutionId(req);
+→ 654         const records = await prisma.attendance.findMany({
+                where: {
+                  facultyId: "69de76b59c127eab5fdcbfa7",
+                  institutionId: "726ad639-1dc8-4394-8980-70e110cb7e49"
+                },
+                include: {
+                  course: {
+                    select: {
+                      id: true,
+                      subject: true,
+                      courseCode: true
+                    }
+                  },
+                  student: {
+                    select: {
+                      id: true,
+                      name: true,
+                      username: true
+                    }
+                  }
+                },
+                orderBy: {
+                  date: -1
+                        ~~
+                }
+              })
+
+Argument `date`: Invalid value provided. Expected SortOrder, provided Int.
+    at wn (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:29:1363)
+    at $n.handleRequestError (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6958)
+    at $n.handleAndLogRequestError (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at async l (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at async C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:25 {
+  clientVersion: '5.22.0'
+}
+Error in GET /faculty/history: PrismaClientValidationError: 
+Invalid `prisma.attendance.findMany()` invocation in
+C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:49
+
+  651 router.get('/faculty/history', auth, async (req, res) => {
+  652     try {
+  653         const institutionId = getInstitutionId(req);
+→ 654         const records = await prisma.attendance.findMany({
+                where: {
+                  facultyId: "69de76b59c127eab5fdcbfa7",
+                  institutionId: "726ad639-1dc8-4394-8980-70e110cb7e49"
+                },
+                include: {
+                  course: {
+                    select: {
+                      id: true,
+                      subject: true,
+                      courseCode: true
+                    }
+                  },
+                  student: {
+                    select: {
+                      id: true,
+                      name: true,
+                      username: true
+                    }
+                  }
+                },
+                orderBy: {
+                  date: -1
+                        ~~
+                }
+              })
+
+Argument `date`: Invalid value provided. Expected SortOrder, provided Int.
+    at wn (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:29:1363)
+    at $n.handleRequestError (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6958)
+    at $n.handleAndLogRequestError (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at async l (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at async C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:25 {
+  clientVersion: '5.22.0'
+}
+Error in GET /faculty/history: PrismaClientValidationError: 
+Invalid `prisma.attendance.findMany()` invocation in
+C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:49
+
+  651 router.get('/faculty/history', auth, async (req, res) => {
+  652     try {
+  653         const institutionId = getInstitutionId(req);
+→ 654         const records = await prisma.attendance.findMany({
+                where: {
+                  facultyId: "69de76b59c127eab5fdcbfa7",
+                  institutionId: "726ad639-1dc8-4394-8980-70e110cb7e49"
+                },
+                include: {
+                  course: {
+                    select: {
+                      id: true,
+                      subject: true,
+                      courseCode: true
+                    }
+                  },
+                  student: {
+                    select: {
+                      id: true,
+                      name: true,
+                      username: true
+                    }
+                  }
+                },
+                orderBy: {
+                  date: -1
+                        ~~
+                }
+              })
+
+Argument `date`: Invalid value provided. Expected SortOrder, provided Int.
+    at wn (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:29:1363)
+    at $n.handleRequestError (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6958)
+    at $n.handleAndLogRequestError (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at async l (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at async C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:25 {
+  clientVersion: '5.22.0'
+}
+Error in GET /faculty/history: PrismaClientValidationError: 
+Invalid `prisma.attendance.findMany()` invocation in
+C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:49
+
+  651 router.get('/faculty/history', auth, async (req, res) => {
+  652     try {
+  653         const institutionId = getInstitutionId(req);
+→ 654         const records = await prisma.attendance.findMany({
+                where: {
+                  facultyId: "69de76b59c127eab5fdcbfa7",
+                  institutionId: "726ad639-1dc8-4394-8980-70e110cb7e49"
+                },
+                include: {
+                  course: {
+                    select: {
+                      id: true,
+                      subject: true,
+                      courseCode: true
+                    }
+                  },
+                  student: {
+                    select: {
+                      id: true,
+                      name: true,
+                      username: true
+                    }
+                  }
+                },
+                orderBy: {
+                  date: -1
+                        ~~
+                }
+              })
+
+Argument `date`: Invalid value provided. Expected SortOrder, provided Int.
+    at wn (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:29:1363)
+    at $n.handleRequestError (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6958)
+    at $n.handleAndLogRequestError (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at async l (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at async C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:25 {
+  clientVersion: '5.22.0'
+}
+Error in GET /faculty/history: PrismaClientValidationError: 
+Invalid `prisma.attendance.findMany()` invocation in
+C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:49
+
+  651 router.get('/faculty/history', auth, async (req, res) => {
+  652     try {
+  653         const institutionId = getInstitutionId(req);
+→ 654         const records = await prisma.attendance.findMany({
+                where: {
+                  facultyId: "69de76b59c127eab5fdcbfa7",
+                  institutionId: "726ad639-1dc8-4394-8980-70e110cb7e49"
+                },
+                include: {
+                  course: {
+                    select: {
+                      id: true,
+                      subject: true,
+                      courseCode: true
+                    }
+                  },
+                  student: {
+                    select: {
+                      id: true,
+                      name: true,
+                      username: true
+                    }
+                  }
+                },
+                orderBy: {
+                  date: -1
+                        ~~
+                }
+              })
+
+Argument `date`: Invalid value provided. Expected SortOrder, provided Int.
+    at wn (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:29:1363)
+    at $n.handleRequestError (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6958)
+    at $n.handleAndLogRequestError (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6623)
+    at $n.request (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:121:6307)
+    at async l (C:\Users\DELL\Downloads\table\table\server\node_modules\@prisma\client\runtime\library.js:130:9633)
+    at async C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:25 {
+  clientVersion: '5.22.0'
+}
+node:events:487
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:2167:16)
+    at listenInCluster (node:net:2224:12)
+    at Server.listen (node:net:2344:7)
+    at app.listen (C:\Users\DELL\Downloads\table\table\server\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\DELL\Downloads\table\table\server\index.js:82:5)
+    at Module._compile (node:internal/modules/cjs/loader:1944:14)
+    at Object..js (node:internal/modules/cjs/loader:2084:10)
+    at Module.load (node:internal/modules/cjs/loader:1666:32)
+    at Module._load (node:internal/modules/cjs/loader:1447:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:260:19)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:2203:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 4000
+}
+
+Node.js v26.4.0
+node:events:487
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:2167:16)
+    at listenInCluster (node:net:2224:12)
+    at Server.listen (node:net:2344:7)
+    at app.listen (C:\Users\DELL\Downloads\table\table\server\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\DELL\Downloads\table\table\server\index.js:82:5)
+    at Module._compile (node:internal/modules/cjs/loader:1944:14)
+    at Object..js (node:internal/modules/cjs/loader:2084:10)
+    at Module.load (node:internal/modules/cjs/loader:1666:32)
+    at Module._load (node:internal/modules/cjs/loader:1447:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:260:19)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:2203:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 4000
+}
+
+Node.js v26.4.0
+node:events:487
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:2167:16)
+    at listenInCluster (node:net:2224:12)
+    at Server.listen (node:net:2344:7)
+    at app.listen (C:\Users\DELL\Downloads\table\table\server\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\DELL\Downloads\table\table\server\index.js:82:5)
+    at Module._compile (node:internal/modules/cjs/loader:1944:14)
+    at Object..js (node:internal/modules/cjs/loader:2084:10)
+    at Module.load (node:internal/modules/cjs/loader:1666:32)
+    at Module._load (node:internal/modules/cjs/loader:1447:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:260:19)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:2203:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 4000
+}
+
+Node.js v26.4.0

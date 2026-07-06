@@ -1,0 +1,26 @@
+{
+  "title": "Sample Timetable",
+  "year": "First Year",
+  "days": ["Mon","Tue","Wed","Thu","Fri"],
+  "periodsPerDay": 8,
+  "weeks": 1,
+  "freezePeriods": [{"day":"Wed","period":3}],
+  "faculties": [
+    {"facultyId":"F1","name":"Dr. A","maxWeeklyLoad":20},
+    {"facultyId":"F2","name":"Dr. B","maxWeeklyLoad":18}
+  ],
+  "rooms": [
+    {"roomId":"R1","name":"Room 101","type":"Classroom"},
+    {"roomId":"L1","name":"Lab 1","type":"Lab"}
+  ],
+  "batches": [
+    {
+      "batchId":"B1",
+      "year":"First Year",
+      "subjects": [
+        {"code":"CS101","name":"Intro to CS","lectureHours":4,"labHours":1,"assignedFacultyId":"F1","assignedRoomId":"R1"},
+        {"code":"CS102","name":"Programming","lectureHours":3,"labHours":1,"assignedFacultyId":"F2","assignedRoomId":"L1"}
+      ]
+    }
+  ]
+}

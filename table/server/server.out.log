@@ -1,0 +1,50 @@
+
+> timetable-server@1.0.0 start
+> node index.js
+
+⚠️ LMS: Cloudinary credentials missing, using local Disk Storage
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+Server running on port 4000
+Login: Found user "main" in Tenant DB (vijaya-collage). Comparing password...
+Login: Password mismatch for user "main".
+Login: Found user "main" in Tenant DB (vijaya-collage). Comparing password...
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+Login: Found user "company_admin" in Master DB (Company Admin). Comparing password...
+Login: Password mismatch for user "company_admin".
+Login: Found user "company_admin" in Master DB (Company Admin). Comparing password...
+Login: Password mismatch for user "company_admin".
+Login: Found user "company_admin" in Master DB (Company Admin). Comparing password...
+Login: Found user "company_admin" in Master DB (Company Admin). Comparing password...
+Login: Password mismatch for user "company_admin".
+Login: Found user "company_admin" in Master DB (Company Admin). Comparing password...
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+Company: fetching global stats

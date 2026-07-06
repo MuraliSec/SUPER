@@ -1,0 +1,19 @@
+Created At: 2026-07-02T17:59:06Z
+Completed At: 2026-07-02T17:59:06Z
+File Path: `file:///c:/Users/DELL/Downloads/table/table/client/src/App.jsx`
+Total Lines: 664
+Total Bytes: 34234
+Showing lines 275 to 285
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+275:   // Ensure activeTab is valid for current visible tabs
+276:   const getSafeActiveTab = () => {
+277:     if (visibleTabs.find(t => t.id === activeTab)) return activeTab;
+278:     return visibleTabs[0]?.id || '';
+279:   };
+280: 
+281:   const currentTabId = getSafeActiveTab();
+282:   const ActiveComponent = [...timetableTabs, ...lmsTabs, ...attendanceTabs, ...jobTabs].find(tab => tab.id === currentTabId)?.component || (() => <div style={{ padding: 40 }}>Unauthorized or No Section Selected</div>);
+283:   const roleDisplayLabel = (user.role === 'HOD' || user.role === 'COLLEGE_ADMIN')
+284:     ? 'Main Administration Portal'
+285:     : user.role.replace('_', ' ');
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

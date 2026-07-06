@@ -1,0 +1,89 @@
+Created At: 2026-07-02T18:11:33Z
+Completed At: 2026-07-02T18:11:33Z
+File Path: `file:///c:/Users/DELL/Downloads/table/table/client/src/App.jsx`
+Total Lines: 664
+Total Bytes: 34253
+Showing lines 440 to 520
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+440:                       <span style={{ fontSize: '9px', fontWeight: '800', letterSpacing: '0.5px', color: 'rgba(255,255,255,0.75)', textTransform: 'uppercase', marginTop: '1px' }}>
+441:                         {roleDisplayBadge()}
+442:                       </span>
+443:                     )}
+444:                   </div>
+445:                 </div>
+446: 
+447:                 {/* Section buttons - hidden on mobile, shown on desktop */}
+448:                 <div className="hide-mobile">
+449:                   {(viewingCollege || user.role !== 'COMPANY_ADMIN') && (
+450:                     <div style={{ display: 'flex', background: 'rgba(255,255,255,0.1)', borderRadius: '10px', padding: '3px' }}>
+451:                       <button onClick={() => { setSection('timetable'); setActiveTab(viewMode === 'hod' ? 'admin' : (viewMode === 'faculty' ? 'faculty-dashboard' : 'student-view')); }}
+452:                         style={{ padding: '7px 16px', borderRadius: '8px', border: 'none', background: section === 'timetable' ? 'white' : 'transparent', color: section === 'timetable' ? '#4c51bf' : 'white', fontWeight: '700', cursor: 'pointer', fontSize: '13px', whiteSpace: 'nowrap', transition: '0.3s' }}>
+453:                         🗓️ Timetable
+454:                       </button>
+455:                       <button onClick={() => { setSection('lms'); setActiveTab('lms-main'); }}
+456:                         style={{ padding: '7px 16px', borderRadius: '8px', border: 'none', background: section === 'lms' ? 'white' : 'transparent', color: section === 'lms' ? '#4c51bf' : 'white', fontWeight: '700', cursor: 'pointer', fontSize: '13px', whiteSpace: 'nowrap', transition: '0.3s' }}>
+457:                         📚 LMS
+458:                       </button>
+459:                       <button onClick={() => { setSection('attendance'); setActiveTab('attendance-main'); }}
+460:                         style={{ padding: '7px 16px', borderRadius: '8px', border: 'none', background: section === 'attendance' ? 'white' : 'transparent', color: section === 'attendance' ? '#4c51bf' : 'white', fontWeight: '700', cursor: 'pointer', fontSize: '13px', whiteSpace: 'nowrap', transition: '0.3s' }}>
+461:                         📝 Attendance
+462:                       </button>
+463:                       <button onClick={() => { setSection('jobs'); setActiveTab('job-main'); }}
+464:                         style={{ padding: '7px 16px', borderRadius: '8px', border: 'none', background: section === 'jobs' ? 'white' : 'transparent', color: section === 'jobs' ? '#4c51bf' : 'white', fontWeight: '700', cursor: 'pointer', fontSize: '13px', whiteSpace: 'nowrap', transition: '0.3s' }}>
+465:                         💼 Jobs
+466:                       </button>
+467:                     </div>
+468:                   )}
+469:                 </div>
+470:               </div>
+471: 
+472:               {/* Right side: profile + viewing dropdown + mobile hamburger */}
+473:               <div style={{ display: 'flex', alignItems: 'center', gap: isMobile ? '8px' : '15px' }}>
+474:                 <AnnouncementsPopup
+475:                   user={user}
+476:                   scopeKey={viewingCollege?.id || user.institutionId || 'global'}
+477:                   isMobile={isMobile}
+478:                 />
+479: 
+480:                 {/* Viewing As - hide text label on mobile */}
+481:                 {(viewingCollege || user.role === 'COLLEGE_ADMIN') && (
+482:                   <div className={isMobile ? '' : ''} style={{ display: 'flex', alignItems: 'center', gap: '6px', background: 'rgba(255,255,255,0.1)', padding: isMobile ? '4px 8px' : '5px 12px', borderRadius: '10px', fontSize: isMobile ? '12px' : '13px' }}>
+483:                     {!isMobile && <span style={{ opacity: 0.8 }}>Viewing As:</span>}
+484:                     <select value={viewMode}
+485:                       onChange={(e) => { const m = e.target.value; setViewMode(m); if (section === 'timetable') setActiveTab(m === 'hod' ? 'admin' : (m === 'faculty' ? 'faculty-dashboard' : 'student-view')); }}
+486:                       style={{ background: 'transparent', color: 'white', border: 'none', fontWeight: 'bold', outline: 'none', cursor: 'pointer', fontSize: isMobile ? '11px' : '13px', maxWidth: isMobile ? '100px' : 'none' }}>
+487:                       <option value="hod" style={{ color: '#333' }}>{isMobile ? 'Admin' : 'Main Administration System'}</option>
+488:                       <option value="faculty" style={{ color: '#333' }}>Faculty</option>
+489:                       <option value="student" style={{ color: '#333' }}>Student</option>
+490:                     </select>
+491:                   </div>
+492:                 )}
+493: 
+494:                 {viewingCollege && (
+495:                   <button onClick={backToCentral} style={{ background: '#f56565', border: 'none', color: 'white', padding: isMobile ? '6px 10px' : '8px 15px', borderRadius: '10px', cursor: 'pointer', fontWeight: 'bold', fontSize: isMobile ? '12px' : '13px' }}>
+496:                     {isMobile ? '✕' : 'Exit'}
+497:                   </button>
+498:                 )}
+499: 
+500:                 {/* User profile / avatar */}
+501:                 <div style={{ position: 'relative' }}>
+502:                   <div style={{ display: 'flex', alignItems: 'center', gap: isMobile ? '6px' : '10px', cursor: 'pointer', userSelect: 'none' }}
+503:                     onClick={() => setShowDropdown(!showDropdown)}>
+504:                     {user.profilePhoto ? (
+505:                       <img src={user.profilePhoto} alt="Avatar" style={{ width: isMobile ? '32px' : '38px', height: isMobile ? '32px' : '38px', borderRadius: '50%', objectFit: 'cover', border: '2px solid rgba(255,255,255,0.4)', boxShadow: '0 2px 6px rgba(0,0,0,0.1)' }} />
+506:                     ) : (
+507:                       <div style={{ width: isMobile ? '32px' : '38px', height: isMobile ? '32px' : '38px', borderRadius: '50%', background: 'rgba(255,255,255,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: isMobile ? '16px' : '18px' }}>👤</div>
+508:                     )}
+509:                     {!isMobile && (
+510:                       <div style={{ textAlign: 'right', borderLeft: '1px solid rgba(255,255,255,0.2)', paddingLeft: '10px' }}>
+511:                         <div style={{ fontSize: '14px', fontWeight: '800', lineHeight: '1.2' }}>{user.name || user.username}</div>
+512:                         <div style={{ fontSize: '10px', opacity: 0.8, fontWeight: '600', textTransform: roleDisplayLabel === 'Main Administration Portal' ? 'none' : 'uppercase' }}>{roleDisplayLabel}</div>
+513:                       </div>
+514:                     )}
+515:                   </div>
+516: 
+517:                   {/* Mobile hamburger for section nav */}
+518:                   {(viewingCollege || user.role !== 'COMPANY_ADMIN') && (
+519:                     <button onClick={(e) => { e.stopPropagation(); setShowMobileNav(!showMobileNav); }}
+520:                       className="show-mobile"
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

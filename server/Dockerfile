@@ -1,5 +1,8 @@
-# Use Node.js 20 Alpine as the base image
-FROM node:20-alpine
+# Use Node.js 20 Slim as the base image
+FROM node:20-slim
+
+# Install OpenSSL (required by Prisma)
+RUN apt-get update -y && apt-get install -y openssl && rm -rf /var/lib/apt/lists/*
 
 # Set working directory inside the container
 WORKDIR /app

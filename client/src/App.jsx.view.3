@@ -1,0 +1,69 @@
+Created At: 2026-07-02T17:56:17Z
+Completed At: 2026-07-02T17:56:17Z
+File Path: `file:///c:/Users/DELL/Downloads/table/table/client/src/App.jsx`
+Total Lines: 664
+Total Bytes: 34234
+Showing lines 600 to 660
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+600:         </nav>
+601: 
+602:         {/* Secondary Ribbon Navigation (Tabs) */}
+603:         <div style={{ background: 'white', borderBottom: '1px solid #e2e8f0' }}>
+604:           <div style={{ padding: '0 16px', display: 'flex', gap: '2px', overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
+605:             {visibleTabs.map(tab => (
+606:               <button
+607:                 key={tab.id}
+608:                 onClick={() => setActiveTab(tab.id)}
+609:                 style={{
+610:                   padding: isMobile ? '12px 12px' : '15px 20px', border: 'none', background: 'transparent',
+611:                   color: currentTabId === tab.id ? '#4c51bf' : '#718096',
+612:                   fontWeight: '600', cursor: 'pointer', position: 'relative',
+613:                   transition: '0.2s', whiteSpace: 'nowrap', fontSize: isMobile ? '12px' : '14px'
+614:                 }}
+615:               >
+616:                 {tab.label}
+617:                 {currentTabId === tab.id && (
+618:                   <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: '3px', background: '#4c51bf' }} />
+619:                 )}
+620:               </button>
+621:             ))}
+622:           </div>
+623:         </div>
+624: 
+625:         {/* Main Content Area */}
+626:         <main className="responsive-padding">
+627:           <div style={{ background: 'white', borderRadius: '16px', boxShadow: '0 4px 6px -1px rgba(0,0,0,0.1)', minHeight: 'calc(100vh - 200px)' }}>
+628:             <React.Suspense fallback={<LoadingFallback />}>
+629:               <ActiveComponent user={user} onSelectCollege={selectCollege} viewingAs={viewMode} role={viewMode} />
+630:             </React.Suspense>
+631:           </div>
+632:         </main>
+633: 
+634:         <style>{`
+635:           @keyframes spin {
+636:             0% { transform: rotate(0deg); }
+637:             100% { transform: rotate(360deg); }
+638:           }
+639:         `}</style>
+640: 
+641:         {showProfileModal && (
+642:           <ProfileModal
+643:             user={user}
+644:             tab={profileModalTab}
+645:             onClose={() => setShowProfileModal(false)}
+646:             onUpdate={(updatedUserFields) => {
+647:               const updatedUser = { ...user, ...updatedUserFields };
+648:               localStorage.setItem('user', JSON.stringify(updatedUser));
+649:               setUser(updatedUser);
+650:               fetchInstProfile(updatedUser);
+651:             }}
+652:           />
+653:         )}
+654: 
+655:         <footer style={{ textAlign: 'center', padding: '40px 20px', color: '#a0aec0', fontSize: '14px' }}>
+656:           &copy; 2026 Admin Pro Scheduler & LMS. All rights reserved.
+657:         </footer>
+658:       </div>
+659:     </ErrorBoundary>
+660:   );
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

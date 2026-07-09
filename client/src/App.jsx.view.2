@@ -1,0 +1,69 @@
+Created At: 2026-07-02T17:55:24Z
+Completed At: 2026-07-02T17:55:24Z
+File Path: `file:///c:/Users/DELL/Downloads/table/table/client/src/App.jsx`
+Total Lines: 664
+Total Bytes: 34234
+Showing lines 380 to 440
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+380:   if (!profileCompleted) {
+381:     return (
+382:       <ErrorBoundary>
+383:         <React.Suspense fallback={<LoadingFallback />}>
+384:           <ProfileCompletion
+385:             user={user}
+386:             onComplete={(updatedFields) => {
+387:               const updatedUser = { ...user, ...updatedFields, profileCompleted: true };
+388:               localStorage.setItem('user', JSON.stringify(updatedUser));
+389:               if (updatedFields.token) {
+390:                 localStorage.setItem('token', updatedFields.token);
+391:               }
+392:               setUser(updatedUser);
+393:               setProfileCompleted(true);
+394:               fetchInstProfile(updatedUser);
+395: 
+396:               // Set initial active tabs
+397:               if (updatedUser.role === 'COLLEGE_ADMIN' || updatedUser.role === 'HOD') {
+398:                 setViewMode('hod');
+399:                 setSection('timetable');
+400:                 setActiveTab('admin');
+401:               } else if (updatedUser.role === 'FACULTY') {
+402:                 setViewMode('faculty');
+403:                 setSection('timetable');
+404:                 setActiveTab('faculty-dashboard');
+405:               } else if (updatedUser.role === 'STUDENT') {
+406:                 setViewMode('student');
+407:                 setSection('timetable');
+408:                 setActiveTab('student-view');
+409:               }
+410:             }}
+411:           />
+412:         </React.Suspense>
+413:       </ErrorBoundary>
+414:     );
+415:   }
+416: 
+417:   return (
+418:     <ErrorBoundary>
+419:       <div className="min-h-screen" style={{ background: '#f0f2f5', fontFamily: "'Inter', sans-serif" }}>
+420:         {/* Top Main Navigation */}
+421:         <nav style={{
+422:           background: viewingCollege ? '#1a202c' : 'linear-gradient(135deg, #4c51bf 0%, #667eea 100%)',
+423:           color: 'white',
+424:           boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
+425:           position: 'sticky',
+426:           top: 0,
+427:           zIndex: 1000
+428:         }}>
+429:           <div style={{ padding: '0 16px' }}>
+430:             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '64px' }}>
+431: 
+432:               {/* Left side: brand + hamburger on mobile */}
+433:               <div style={{ display: 'flex', alignItems: 'center', gap: isMobile ? '8px' : '24px' }}>
+434:                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+435:                   <div style={{ display: 'flex', flexDirection: 'column' }}>
+436:                     <span style={{ fontSize: isMobile ? '13px' : '15px', fontWeight: '800', letterSpacing: '-0.3px', lineHeight: '1.2' }}>
+437:                       {user.role === 'COMPANY_ADMIN' && !viewingCollege ? 'COMPANY ADMIN' : (institutionProfile?.collegeName || (viewingCollege && viewingCollege.name ? viewingCollege.name.toUpperCase() : 'CAMPUS CORE'))}
+438:                     </span>
+439:                     {user && (
+440:                       <span style={{ fontSize: '9px', fontWeight: '800', letterSpacing: '0.5px', color: 'rgba(255,255,255,0.75)', textTransform: 'uppercase', marginTop: '1px' }}>
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

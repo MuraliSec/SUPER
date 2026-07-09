@@ -1,0 +1,89 @@
+Created At: 2026-07-02T18:11:36Z
+Completed At: 2026-07-02T18:11:36Z
+File Path: `file:///c:/Users/DELL/Downloads/table/table/client/src/App.jsx`
+Total Lines: 664
+Total Bytes: 34253
+Showing lines 520 to 600
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+520:                       className="show-mobile"
+521:                       style={{ background: 'rgba(255,255,255,0.15)', border: 'none', color: 'white', width: '32px', height: '32px', borderRadius: '8px', cursor: 'pointer', fontSize: '18px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+522:                       {showMobileNav ? '✕' : '☰'}
+523:                     </button>
+524:                   )}
+525: 
+526:                   {showDropdown && (
+527:                     <div style={{
+528:                       position: 'absolute', top: '50px', right: '0', background: 'white', color: '#2d3748',
+529:                       borderRadius: '16px', boxShadow: '0 10px 25px rgba(0,0,0,0.15)', border: '1px solid #e2e8f0',
+530:                       width: isMobile ? '220px' : '260px', padding: '16px', zIndex: 1000, display: 'flex', flexDirection: 'column', gap: '12px',
+531:                       textAlign: 'left'
+532:                     }}>
+533:                       <div style={{ display: 'flex', alignItems: 'center', gap: '12px', borderBottom: '1px solid #edf2f7', paddingBottom: '12px' }}>
+534:                         {user.profilePhoto ? (
+535:                           <img src={user.profilePhoto} alt="Profile" style={{ width: '48px', height: '48px', borderRadius: '50%', objectFit: 'cover', border: '2px solid #4c51bf' }} />
+536:                         ) : (
+537:                           <div style={{ width: '48px', height: '48px', borderRadius: '50%', background: '#edf2f7', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '24px' }}>👤</div>
+538:                         )}
+539:                         <div>
+540:                           <div style={{ fontWeight: '800', fontSize: '14px', color: '#1a202c', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: isMobile ? '120px' : '160px' }}>{user.name || user.username}</div>
+541:                           <div style={{ fontSize: '11px', color: '#718096', fontWeight: '600' }}>@{user.username}</div>
+542:                           <div style={{ fontSize: '10px', color: '#4c51bf', fontWeight: '800', textTransform: 'uppercase', marginTop: '2px' }}>{mapRoleToDisplay(user.role)}</div>
+543:                         </div>
+544:                       </div>
+545:                       <div style={{ fontSize: '12px', color: '#4a5568', wordBreak: 'break-all' }}>
+546:                         <div style={{ display: 'flex', gap: '4px' }}><span>📧</span> <span style={{ fontWeight: '600', color: '#2d3748' }}>{user.email || 'Not provided'}</span></div>
+547:                         {user.mobileNumber && <div style={{ display: 'flex', gap: '4px', marginTop: '6px' }}><span>📞</span> <span style={{ fontWeight: '600', color: '#2d3748' }}>{user.mobileNumber}</span></div>}
+548:                       </div>
+549:                       <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', borderTop: '1px solid #edf2f7', paddingTop: '12px' }}>
+550:                         <button onClick={() => { setShowDropdown(false); setProfileModalTab('view'); setShowProfileModal(true); }} style={{
+551:                           width: '100%', padding: '8px 12px', background: '#f7fafc', border: 'none', borderRadius: '8px',
+552:                           color: '#4a5568', fontWeight: '750', fontSize: '13px', cursor: 'pointer', textAlign: 'left',
+553:                           transition: '0.2s', display: 'flex', alignItems: 'center', gap: '8px'
+554:                         }}>
+555:                           <span>👤</span> View Profile
+556:                         </button>
+557:                         <button onClick={() => { setShowDropdown(false); setProfileModalTab('edit'); setShowProfileModal(true); }} style={{
+558:                           width: '100%', padding: '8px 12px', background: '#f7fafc', border: 'none', borderRadius: '8px',
+559:                           color: '#4a5568', fontWeight: '750', fontSize: '13px', cursor: 'pointer', textAlign: 'left',
+560:                           transition: '0.2s', display: 'flex', alignItems: 'center', gap: '8px'
+561:                         }}>
+562:                           <span>⚙️</span> Edit Profile
+563:                         </button>
+564:                         <button onClick={() => { setShowDropdown(false); handleLogout(); }} style={{
+565:                           width: '100%', padding: '8px 12px', background: '#fff5f5', border: 'none', borderRadius: '8px',
+566:                           color: '#c53030', fontWeight: '800', fontSize: '13px', cursor: 'pointer', textAlign: 'left',
+567:                           transition: '0.2s', display: 'flex', alignItems: 'center', gap: '8px'
+568:                         }}>
+569:                           <span>🚪</span> Logout
+570:                         </button>
+571:                       </div>
+572:                     </div>
+573:                   )}
+574:                 </div>
+575:               </div>
+576:             </div>
+577:           </div>
+578: 
+579:           {/* Mobile section nav dropdown */}
+580:           {showMobileNav && isMobile && (viewingCollege || user.role !== 'COMPANY_ADMIN') && (
+581:             <div style={{ padding: '4px 16px 12px', display: 'flex', flexDirection: 'column', gap: '4px', borderTop: '1px solid rgba(255,255,255,0.15)', marginTop: '4px' }}>
+582:               <button onClick={() => { setSection('timetable'); setActiveTab(viewMode === 'hod' ? 'admin' : (viewMode === 'faculty' ? 'faculty-dashboard' : 'student-view')); setShowMobileNav(false); }}
+583:                 style={{ padding: '10px 14px', borderRadius: '8px', border: 'none', background: section === 'timetable' ? 'rgba(255,255,255,0.2)' : 'transparent', color: 'white', fontWeight: '700', cursor: 'pointer', textAlign: 'left', fontSize: '14px' }}>
+584:                 🗓️ Timetable
+585:               </button>
+586:               <button onClick={() => { setSection('lms'); setActiveTab('lms-main'); setShowMobileNav(false); }}
+587:                 style={{ padding: '10px 14px', borderRadius: '8px', border: 'none', background: section === 'lms' ? 'rgba(255,255,255,0.2)' : 'transparent', color: 'white', fontWeight: '700', cursor: 'pointer', textAlign: 'left', fontSize: '14px' }}>
+588:                 📚 LMS
+589:               </button>
+590:               <button onClick={() => { setSection('attendance'); setActiveTab('attendance-main'); setShowMobileNav(false); }}
+591:                 style={{ padding: '10px 14px', borderRadius: '8px', border: 'none', background: section === 'attendance' ? 'rgba(255,255,255,0.2)' : 'transparent', color: 'white', fontWeight: '700', cursor: 'pointer', textAlign: 'left', fontSize: '14px' }}>
+592:                 📝 Attendance
+593:               </button>
+594:               <button onClick={() => { setSection('jobs'); setActiveTab('job-main'); setShowMobileNav(false); }}
+595:                 style={{ padding: '10px 14px', borderRadius: '8px', border: 'none', background: section === 'jobs' ? 'rgba(255,255,255,0.2)' : 'transparent', color: 'white', fontWeight: '700', cursor: 'pointer', textAlign: 'left', fontSize: '14px' }}>
+596:                 💼 Jobs
+597:               </button>
+598:             </div>
+599:           )}
+600:         </nav>
+The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.

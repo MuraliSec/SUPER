@@ -1,0 +1,40 @@
+services:
+  server:
+    image: 264144511547.dkr.ecr.ap-south-2.amazonaws.com/timetable-server:latest
+    container_name: timetable-server
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
+      # Change this to your actual production database URL (RDS PostgreSQL or the local container 'db')
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/timetable?schema=public
+      # Add other environment variables (e.g. JWT secret, Cloudinary config)
+      # - JWT_SECRET=your_jwt_secret
+    restart: always
+    depends_on:
+      - db
+
+  client:
+    image: 264144511547.dkr.ecr.ap-south-2.amazonaws.com/timetable-client:latest
+    container_name: timetable-client
+    ports:
+      - "80:80"
+    restart: always
+    depends_on:
+      - server
+
+  db:
+    image: postgres:15-alpine
+    container_name: timetable-db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=timetable
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: always
+
+volumes:
+  postgres_data:

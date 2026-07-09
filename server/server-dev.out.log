@@ -1,0 +1,1282 @@
+
+> timetable-server@1.0.0 dev
+> nodemon index.js
+
+[33m[nodemon] 3.1.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,json[39m
+[32m[nodemon] starting `node index.js`[39m
+⚠️ LMS: Cloudinary credentials missing, using local Disk Storage
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+Server running on port 4000
+Login: Found user "main" in Tenant DB (vijaya-collage). Comparing password...
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+📊 Fetching filtered report for faculty: main
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+📊 Fetching filtered report for faculty: main
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+📊 Fetching filtered report for faculty: main
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+📊 Fetching filtered report for faculty: main
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+🔒 Auth: Verified user main (COLLEGE_ADMIN)
+Login: Found user "company_admin" in Master DB (Company Admin). Comparing password...
+Login: Password mismatch for user "company_admin".
+Login: Found user "12345" in Tenant DB (vijaya-collage). Comparing password...
+Login: Password mismatch for user "12345".
+Login: User "774885848" not found in master or tenant databases.
+Login: User "774885848" not found in master or tenant databases.
+Login: Found user "2403A" in Tenant DB (vijaya-collage). Comparing password...
+🔒 Auth: Verified user 2403A (STUDENT)
+🔒 Auth: Verified user 2403A (STUDENT)
+🔒 Auth: Verified user 2403A (STUDENT)
+🔒 Auth: Verified user 2403A (STUDENT)
+🔒 Auth: Verified user 2403A (STUDENT)
+🔒 Auth: Verified user 2403A (STUDENT)
+🔒 Auth: Verified user 2403A (STUDENT)
+🔒 Auth: Verified user 2403A (STUDENT)
+🔒 Auth: Verified user 2403A (STUDENT)
+🔒 Auth: Verified user 2403A (STUDENT)
+🔒 Auth: Verified user 2403A (STUDENT)
+Login: Found user "company_admin" in Master DB (Company Admin). Comparing password...
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+⚠️ LMS: Cloudinary credentials missing, using local Disk Storage
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+Server running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+⚠️ LMS: Cloudinary credentials missing, using local Disk Storage
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+Server running on port 4000
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+⚠️ LMS: Cloudinary credentials missing, using local Disk Storage
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+Server running on port 4000
+Login: Found user "company_admin" in Master DB (Company Admin). Comparing password...
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+prisma:error 
+Invalid `prisma.attendance.findMany()` invocation in
+C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:49
+
+  651 router.get('/faculty/history', auth, async (req, res) => {
+  652     try {
+  653         const institutionId = getInstitutionId(req);
+→ 654         const records = await prisma.attendance.findMany({
+                where: {
+                  facultyId: "69de76b59c127eab5fdcbfa7",
+                  institutionId: "726ad639-1dc8-4394-8980-70e110cb7e49"
+                },
+                include: {
+                  course: {
+                    select: {
+                      id: true,
+                      subject: true,
+                      courseCode: true
+                    }
+                  },
+                  student: {
+                    select: {
+                      id: true,
+                      name: true,
+                      username: true
+                    }
+                  }
+                },
+                orderBy: {
+                  date: -1
+                        ~~
+                }
+              })
+
+Argument `date`: Invalid value provided. Expected SortOrder, provided Int.
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Login: Found user "company_admin" in Master DB (Company Admin). Comparing password...
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+prisma:error 
+Invalid `prisma.attendance.findMany()` invocation in
+C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:49
+
+  651 router.get('/faculty/history', auth, async (req, res) => {
+  652     try {
+  653         const institutionId = getInstitutionId(req);
+→ 654         const records = await prisma.attendance.findMany({
+                where: {
+                  facultyId: "69de76b59c127eab5fdcbfa7",
+                  institutionId: "726ad639-1dc8-4394-8980-70e110cb7e49"
+                },
+                include: {
+                  course: {
+                    select: {
+                      id: true,
+                      subject: true,
+                      courseCode: true
+                    }
+                  },
+                  student: {
+                    select: {
+                      id: true,
+                      name: true,
+                      username: true
+                    }
+                  }
+                },
+                orderBy: {
+                  date: -1
+                        ~~
+                }
+              })
+
+Argument `date`: Invalid value provided. Expected SortOrder, provided Int.
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+prisma:error 
+Invalid `prisma.attendance.findMany()` invocation in
+C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:49
+
+  651 router.get('/faculty/history', auth, async (req, res) => {
+  652     try {
+  653         const institutionId = getInstitutionId(req);
+→ 654         const records = await prisma.attendance.findMany({
+                where: {
+                  facultyId: "69de76b59c127eab5fdcbfa7",
+                  institutionId: "726ad639-1dc8-4394-8980-70e110cb7e49"
+                },
+                include: {
+                  course: {
+                    select: {
+                      id: true,
+                      subject: true,
+                      courseCode: true
+                    }
+                  },
+                  student: {
+                    select: {
+                      id: true,
+                      name: true,
+                      username: true
+                    }
+                  }
+                },
+                orderBy: {
+                  date: -1
+                        ~~
+                }
+              })
+
+Argument `date`: Invalid value provided. Expected SortOrder, provided Int.
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+prisma:error 
+Invalid `prisma.attendance.findMany()` invocation in
+C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:49
+
+  651 router.get('/faculty/history', auth, async (req, res) => {
+  652     try {
+  653         const institutionId = getInstitutionId(req);
+→ 654         const records = await prisma.attendance.findMany({
+                where: {
+                  facultyId: "69de76b59c127eab5fdcbfa7",
+                  institutionId: "726ad639-1dc8-4394-8980-70e110cb7e49"
+                },
+                include: {
+                  course: {
+                    select: {
+                      id: true,
+                      subject: true,
+                      courseCode: true
+                    }
+                  },
+                  student: {
+                    select: {
+                      id: true,
+                      name: true,
+                      username: true
+                    }
+                  }
+                },
+                orderBy: {
+                  date: -1
+                        ~~
+                }
+              })
+
+Argument `date`: Invalid value provided. Expected SortOrder, provided Int.
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+prisma:error 
+Invalid `prisma.attendance.findMany()` invocation in
+C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:49
+
+  651 router.get('/faculty/history', auth, async (req, res) => {
+  652     try {
+  653         const institutionId = getInstitutionId(req);
+→ 654         const records = await prisma.attendance.findMany({
+                where: {
+                  facultyId: "69de76b59c127eab5fdcbfa7",
+                  institutionId: "726ad639-1dc8-4394-8980-70e110cb7e49"
+                },
+                include: {
+                  course: {
+                    select: {
+                      id: true,
+                      subject: true,
+                      courseCode: true
+                    }
+                  },
+                  student: {
+                    select: {
+                      id: true,
+                      name: true,
+                      username: true
+                    }
+                  }
+                },
+                orderBy: {
+                  date: -1
+                        ~~
+                }
+              })
+
+Argument `date`: Invalid value provided. Expected SortOrder, provided Int.
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+prisma:error 
+Invalid `prisma.attendance.findMany()` invocation in
+C:\Users\DELL\Downloads\table\table\server\routes\attendance.js:654:49
+
+  651 router.get('/faculty/history', auth, async (req, res) => {
+  652     try {
+  653         const institutionId = getInstitutionId(req);
+→ 654         const records = await prisma.attendance.findMany({
+                where: {
+                  facultyId: "69de76b59c127eab5fdcbfa7",
+                  institutionId: "726ad639-1dc8-4394-8980-70e110cb7e49"
+                },
+                include: {
+                  course: {
+                    select: {
+                      id: true,
+                      subject: true,
+                      courseCode: true
+                    }
+                  },
+                  student: {
+                    select: {
+                      id: true,
+                      name: true,
+                      username: true
+                    }
+                  }
+                },
+                orderBy: {
+                  date: -1
+                        ~~
+                }
+              })
+
+Argument `date`: Invalid value provided. Expected SortOrder, provided Int.
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+⚠️ LMS: Cloudinary credentials missing, using local Disk Storage
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+Server running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+⚠️ LMS: Cloudinary credentials missing, using local Disk Storage
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+⚠️ LMS: Cloudinary credentials missing, using local Disk Storage
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Server running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+⚠️ LMS: Cloudinary credentials missing, using local Disk Storage
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+⚠️ LMS: Cloudinary credentials missing, using local Disk Storage
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+Server running on port 4000
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+⚠️ LMS: Cloudinary credentials missing, using local Disk Storage
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node index.js`[39m
+⚠️ LMS: Cloudinary credentials missing, using local Disk Storage
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+Server running on port 4000
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Login: Found user "company_admin" in Master DB (Company Admin). Comparing password...
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Login: Found user "company_admin" in Master DB (Company Admin). Comparing password...
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+📊 Fetching filtered report for faculty: company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching institutions for company_admin
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+Company: fetching global stats
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)
+🔒 Auth: Verified user company_admin (COMPANY_ADMIN)

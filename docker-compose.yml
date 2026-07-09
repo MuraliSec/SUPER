@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: timetable-server
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/timetable?schema=public
+      # Add other environment variables as needed (e.g., JWT secret, Cloudinary config)
+      # - JWT_SECRET=your_jwt_secret
+    depends_on:
+      - db
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: timetable-client
+    ports:
+      - "80:80"
+    # If deploying to a specific domain in production, you can set VITE_API_URL at build time
+    # args:
+    #   - VITE_API_URL=https://your-api-domain.com/api
+    depends_on:
+      - server
+
+  db:
+    image: postgres:15-alpine
+    container_name: timetable-db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=timetable
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

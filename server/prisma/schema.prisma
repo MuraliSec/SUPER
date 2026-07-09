@@ -1,0 +1,359 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Institution {
+  id                String    @id @default(uuid())
+  name              String
+  code              String    @unique
+  slug              String    @unique
+  address           String?
+  contact           String?
+  collegeName       String    @default("")
+  logo              String    @default("")
+  databaseName      String?   @unique
+  databaseUrl       String?
+  databaseStatus    String    @default("PENDING") // PENDING | CREATING | READY | FAILED
+  databaseError     String?
+  databaseCreatedAt DateTime?
+  databaseVerifiedAt DateTime?
+  createdAt         DateTime  @default(now())
+
+  // Relations
+  users            User[]
+  batches          Batch[]
+  faculties        Faculty[]
+  courses          Course[]
+  rooms            Room[]
+  subjects         Subject[]
+  timetables       Timetable[]
+  timetableConfigs TimetableConfig[]
+  students         Student[]
+  lmsCourses       LMSCourse[]
+  attendances      Attendance[]
+  jobs             Job[]
+  announcements    Announcement[]
+}
+
+model User {
+  id                 String       @id @default(uuid())
+  username           String       @unique
+  password           String
+  role               String       // 'COMPANY_ADMIN', 'COLLEGE_ADMIN', 'HOD', 'FACULTY', 'STUDENT'
+  institutionId      String?
+  institution        Institution? @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  name               String?
+  email              String?
+  department         String?
+  batch              String?
+  isActive           Boolean      @default(true)
+  mustChangePassword Boolean      @default(false)
+  profileCompleted   Boolean      @default(false)
+  mobileNumber       String       @default("")
+  profilePhoto       String       @default("")
+  lastLogin          DateTime?
+  loginCount         Int          @default(0)
+  createdAt          DateTime     @default(now())
+
+  // Relations
+  studentProfile      Student?     @relation("StudentUser")
+  createdStudents     Student[]    @relation("CreatedByFaculty")
+  lmsCoursesAsFaculty LMSCourse[]  @relation("FacultyCourses")
+  lmsCoursesAsStudent LMSCourse[]  @relation("StudentCourses") // Many-to-many through join table
+  submissions         Submission[]
+  quizResults         QuizResult[]
+  attendances         Attendance[] @relation("StudentAttendance")
+  facultyAttendances  Attendance[] @relation("FacultyAttendance")
+  createdAttendances  Attendance[] @relation("CreatedAttendance")
+  updatedAttendances  Attendance[] @relation("UpdatedAttendance")
+  jobs                Job[]
+
+  @@index([institutionId, username])
+}
+
+model Student {
+  id                   String       @id @default(uuid())
+  institutionId        String
+  institution          Institution  @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  rollNumber           String
+  name                 String       @default("")
+  email                String       @default("")
+  mobileNumber         String?
+  academicYear         String?
+  branch               String?
+  batch                String?
+  semester             Int?
+  section              String?
+  address              String       @default("")
+  parentDetails        String       @default("")
+  profilePhoto         String       @default("")
+  subjects             Json         @default("[]") // [{ subjectId, subjectCode, subjectName }]
+  createdByFacultyId   String?
+  createdByFaculty     User?        @relation("CreatedByFaculty", fields: [createdByFacultyId], references: [id])
+  createdByFacultyName String?
+  createdAt            DateTime     @default(now())
+  
+  // Link to User
+  userId               String?      @unique
+  user                 User?        @relation("StudentUser", fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([institutionId, rollNumber])
+  @@index([institutionId, batch])
+}
+
+model Faculty {
+  id            String      @id @default(uuid())
+  institutionId String
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  facultyId     String
+  name          String
+  email         String
+  department    String
+
+  @@unique([institutionId, facultyId])
+}
+
+model Batch {
+  id            String      @id @default(uuid())
+  institutionId String
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  batchId       String?
+  semester      String?
+  degree        String?
+  yearLabel     String?
+  department    String?
+  session       String?
+}
+
+model Course {
+  id            String       @id @default(uuid())
+  institutionId String
+  institution   Institution  @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  facultyId     String
+  facultyName   String
+  courseCode    String
+  subject       String
+  type          String       // 'Core' | 'Elective'
+  batch         String
+  courseL       Int          @default(0)
+  courseT       Int          @default(0)
+  courseP       Int          @default(0)
+  credits       Int
+  year          String
+  semester      Int
+  program       String
+  department    String
+  facultyL      Int          @default(0)
+  facultyT      Int          @default(0)
+  facultyP      Int          @default(0)
+  totalLoad     Int
+  session       String
+
+  // Relations
+  attendances   Attendance[]
+
+  @@index([institutionId, facultyId])
+  @@index([institutionId, batch])
+}
+
+model Subject {
+  id            String      @id @default(uuid())
+  institutionId String
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  name          String
+  code          String
+  slotGroup     String?     // 'A' | 'B' | null
+}
+
+model Room {
+  id            String      @id @default(uuid())
+  institutionId String
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  roomId        String?
+  name          String?
+  type          String?
+  capacity      Int?
+  sessionYear   String?
+}
+
+model Timetable {
+  id             String      @id @default(uuid())
+  institutionId  String
+  institution    Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  title          String?
+  year           String?
+  batchId        String?
+  generatedAt    DateTime    @default(now())
+  config         Json?
+  timetable      Json?
+  schedule       Json?
+  facultySummary Json?
+  roomSummary    Json?
+  createdAt      DateTime    @default(now())
+  batch          String?
+}
+
+model TimetableConfig {
+  id             String      @id @default(uuid())
+  institutionId  String
+  institution    Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  session        String
+  periodsPerDay  Int         @default(8)
+  periodDuration Int         @default(60)
+  startTime      String      @default("09:00")
+  endTime        String      @default("17:00")
+  workingDays    String[]    @default(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"])
+  lunchBreak     Json?       // { enabled: boolean, period: number, duration: number }
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @default(now())
+}
+
+model LMSCourse {
+  id            String      @id @default(uuid())
+  institutionId String
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  facultyId     String
+  faculty       User        @relation("FacultyCourses", fields: [facultyId], references: [id], onDelete: Cascade)
+  title         String
+  courseCode    String?
+  description   String?
+  category      String?
+  department    String?
+  branch        String?
+  batch         String?
+  academicYear  String?
+  semester      String?
+  
+  // Many-to-many enrolled students
+  students      User[]      @relation("StudentCourses")
+  
+  modules       Json        @default("[]") // [{ title, description, week, materials: [] }]
+  isActive      Boolean     @default(true)
+  createdAt     DateTime    @default(now())
+
+  // Relations
+  assignments   Assignment[]
+  quizzes       Quiz[]
+}
+
+model Assignment {
+  id            String       @id @default(uuid())
+  courseId      String
+  course        LMSCourse    @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  moduleId      String
+  title         String
+  description   String?
+  dueDate       DateTime
+  maxMarks      Int
+  attachments   Json         @default("[]") // [{ title, url }]
+  attachmentUrl String?
+  url           String?
+  createdAt     DateTime     @default(now())
+
+  // Relations
+  submissions   Submission[]
+}
+
+model Submission {
+  id           String     @id @default(uuid())
+  assignmentId String
+  assignment   Assignment @relation(fields: [assignmentId], references: [id], onDelete: Cascade)
+  studentId    String
+  student      User       @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  content      String?
+  fileUrl      String?
+  submittedAt  DateTime   @default(now())
+  status       String     @default("submitted") // 'submitted' | 'graded' | 'late'
+  grade        Int?
+  feedback     String?
+}
+
+model Quiz {
+  id          String       @id @default(uuid())
+  courseId    String
+  course      LMSCourse    @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  moduleId    String
+  title       String
+  description String?
+  timeLimit   Int          @default(30)
+  questions   Json         @default("[]") // [{ questionText, options: [], correctOption, marks }]
+  createdAt   DateTime     @default(now())
+
+  // Relations
+  results     QuizResult[]
+}
+
+model QuizResult {
+  id          String   @id @default(uuid())
+  quizId      String
+  quiz        Quiz     @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  studentId   String
+  student     User     @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  score       Int
+  totalMarks  Int
+  answers     Json     @default("[]") // [{ questionId, selectedOption, isCorrect }]
+  completedAt DateTime @default(now())
+}
+
+model Attendance {
+  id               String      @id @default(uuid())
+  institutionId    String
+  institution      Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  studentId        String
+  student          User        @relation("StudentAttendance", fields: [studentId], references: [id], onDelete: Cascade)
+  facultyId        String
+  faculty          User        @relation("FacultyAttendance", fields: [facultyId], references: [id], onDelete: Cascade)
+  courseId         String
+  course           Course      @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  date             DateTime
+  status           String      // 'Present' | 'Absent' | 'Late'
+  session          String?
+  classType        String      @default("Lecture")
+  attendanceWeight Float       @default(1.0)
+  createdBy        String?
+  creator          User?       @relation("CreatedAttendance", fields: [createdBy], references: [id])
+  createdAt        DateTime    @default(now())
+  updatedBy        String?
+  updater          User?       @relation("UpdatedAttendance", fields: [updatedBy], references: [id])
+  updatedAt        DateTime?
+
+  @@index([institutionId, courseId, date, session])
+  @@index([studentId])
+  @@index([facultyId])
+}
+
+model Job {
+  id            String      @id @default(uuid())
+  title         String
+  company       String
+  description   String?
+  location      String?
+  salary        String?
+  link          String
+  institutionId String
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  postedBy      String
+  user          User        @relation(fields: [postedBy], references: [id], onDelete: Cascade)
+  postedByName  String?
+  createdAt     DateTime    @default(now())
+}
+
+model Announcement {
+  id            String      @id @default(uuid())
+  institutionId String
+  institution   Institution @relation(fields: [institutionId], references: [id], onDelete: Cascade)
+  title         String
+  message       String      @default("")
+  attachment    Json?
+  createdById   String?
+  createdByName String?
+  createdByRole String?
+  createdAt     DateTime    @default(now())
+
+  @@index([institutionId, createdAt])
+}

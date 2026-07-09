@@ -56,7 +56,12 @@ const buildMaintenanceUrl = () => {
 };
 
 const createDatabaseIfMissing = async (databaseName) => {
-    const client = new Client({ connectionString: buildMaintenanceUrl() });
+    const connectionString = buildMaintenanceUrl();
+    const isAws = connectionString.includes('rds.amazonaws.com');
+    const client = new Client({
+        connectionString,
+        ssl: isAws ? { rejectUnauthorized: false } : undefined
+    });
     await client.connect();
     try {
         const existing = await client.query('SELECT 1 FROM pg_database WHERE datname = $1', [databaseName]);

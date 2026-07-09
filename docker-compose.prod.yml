@@ -8,6 +8,8 @@ services:
       - PORT=4000
       # Change this to your actual production database URL (RDS PostgreSQL or the local container 'db')
       - DATABASE_URL=postgresql://postgres:postgres@db:5432/timetable?schema=public
+      - SUPER_ADMIN_USERNAME=5up3r_4dmin_0p
+      - SUPER_ADMIN_PASSWORD_HASH=$$2b$$10$$1/TehGG5TaknDVlWDnRF4uHuYBFzfiY2KDPZav7NkUptSILsOrCLK
       # Add other environment variables (e.g. JWT secret, Cloudinary config)
       # - JWT_SECRET=your_jwt_secret
     restart: always

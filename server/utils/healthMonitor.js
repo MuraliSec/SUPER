@@ -504,6 +504,17 @@ const checkDatabase = async ({ name, kind, client, institution }) => {
 };
 
 const checkFrontendHealth = () => {
+    // If running inside a Docker container, the frontend is served separately by Nginx.
+    const isDocker = fs.existsSync('/.dockerenv') || process.env.NODE_ENV === 'production';
+    if (isDocker) {
+        return {
+            status: 'healthy',
+            checks: [
+                { name: 'React App', status: 'healthy', reason: 'Served independently by Nginx container' }
+            ]
+        };
+    }
+
     const checks = [
         { name: 'React App Entry', file: path.join(clientRoot, 'src', 'App.jsx') },
         { name: 'Company Portal Component', file: path.join(clientRoot, 'src', 'CompanyPortal.jsx') },
